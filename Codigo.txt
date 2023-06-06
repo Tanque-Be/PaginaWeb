@@ -1,0 +1,32 @@
+
+
+nav ul{
+    /* Agregar estilos a la etiqueta <nav> para darle un estilo de lista 
+    y quitarle los  márgenes predeterminados.*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+nav li {
+    /*  Agregar estilos a los elementos de lista <li> 
+        para hacer que se muestren en línea y se separen entre sí*/
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+nav a {
+    /* Agregar estilos a los enlaces <a> para darles un color 
+        y un estilo al pasar el cursor por encima.*/
+    color: #fff;
+    text-decoration: none; 
+    padding: 5px;    
+
+}
+
+nav a:hover{
+    color: #1bf7de;
+}

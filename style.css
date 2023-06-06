@@ -1,0 +1,178 @@
+
+.container{
+    padding-top: 20px;
+    padding: 30px;
+    margin: 10px;
+    background-color: lightblue;
+    background-image: linear-gradient(210deg, #FFDEE9 0%, #B5FFFC 100%);
+
+    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+}
+
+.column{
+    flex: 1;
+    padding: 10px;
+
+}
+
+@media(max-width:600px){
+    .column{
+        flex:100%;
+    }
+}
+
+
+
+header{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+
+}
+
+/* Estilo Formulario */
+
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 400px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+
+  label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+
+  bodyContacto{
+    background-color: aquamarine;
+  }
+
+/* Enlaces RRSS */
+
+
+/* Estilo Navbar*/
+
+nav ul{
+    /* Agregar estilos a la etiqueta <nav> para darle un estilo de lista 
+    y quitarle los  márgenes predeterminados.*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+nav li {
+    /*  Agregar estilos a los elementos de lista <li> 
+        para hacer que se muestren en línea y se separen entre sí*/
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+nav a {
+    /* Agregar estilos a los enlaces <a> para darles un color 
+        y un estilo al pasar el cursor por encima.*/
+    color: #fff;
+    text-decoration: none; 
+    padding: 5px;    
+
+}
+
+nav a:hover{
+    color: #1bf7de;
+}
+
+
+
+/* Codigo entregado desafio */
+
+/* 
+.container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: black;
+    }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    }
+
+.brand {
+    display: flex;
+    align-items: center;
+    }
+
+li>a {
+    padding: 10px ;
+    }
+
+li {
+    list-style-type: none;
+    }
+
+a {
+    color: white;
+    text-decoration:none;
+    }
+
+*/
+
+.button-menu-toggle {
+    display: none;
+    }
+
+    @media (max-width: 768px) {
+        .column {
+            flex: 100%;
+            }
+
+        .nav-links {
+            display: none;
+            }
+
+        .button-menu-toggle {
+            display: block;
+            background-color: white;
+            border:none;
+            border-radius: 50px;
+            padding: 2 24px;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 20px;
+            }
+
+        .nav-links.nav-links-responsive {
+            position: absolute;
+            display: flex;
+            background-color: rgba(20,20,20,0.95);
+            width: 100%;
+            height: 100%;
+            top: 70px;
+            left: 0;
+            flex-direction: column;
+            padding-top: 200px;
+            align-items: center;
+            gap:70px;
+            font-size: 40px;
+            }
+        }
+
+
