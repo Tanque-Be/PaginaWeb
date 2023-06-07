@@ -71,8 +71,13 @@ form {
 
   }
 
-/* Enlaces RRSS */
+/* Galeria */
 
+.img{
+    max-width: 99%;
+    max-height: 99%;
+
+}
 
 /* Estilo Navbar*/
 
